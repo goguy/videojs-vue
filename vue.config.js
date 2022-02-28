@@ -6,5 +6,7 @@ module.exports = {
     'vuetify'
   ],
   runtimeCompiler: true,
-  base: '/videojs-vue/',
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/videojs-vue/'
+    : '/'
 }
