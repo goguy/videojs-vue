@@ -6,4 +6,5 @@ module.exports = {
     'vuetify'
   ],
   runtimeCompiler: true,
+  base: '/videojs-vue/',
 }
