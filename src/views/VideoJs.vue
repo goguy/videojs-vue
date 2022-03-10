@@ -19,9 +19,10 @@ export default {
 				controls: true,
 				sources: [
 					{
-                        //src:'http://localhost:8080/videos/Seoul.mp4',
+						src:'/videos/Seoul.mp4',
+						//src:'http://localhost:8080/videos/Seoul.mp4',
                         //src:'http://localhost:9090/MTS/api/videos/Seoul.mp4',
-						src: require('@/assets/video/Seoul.mp4'),
+						//src: require('@/assets/video/Seoul.mp4'),
 						type: 'video/mp4'
 					}
 				]
